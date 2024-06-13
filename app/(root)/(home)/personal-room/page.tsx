@@ -21,7 +21,7 @@ const Table = ({ title, desc }: { title: string; desc: string }) => {
   );
 };
 
-const personal_room = () => {
+const PersonalRoom = () => {
   const { toast } = useToast();
   const router = useRouter();
   const { user } = useUser();
@@ -72,4 +72,4 @@ const personal_room = () => {
   );
 };
 
-export default personal_room;
+export default PersonalRoom;
